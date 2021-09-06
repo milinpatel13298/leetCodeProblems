@@ -1,6 +1,6 @@
 # LeetCode Problems
 ## This repository contains solutions to the following LeetCode Problems
-1. [Slowest Key](https://github.com/milinpatel13298/leetCodeProblems/blob/main/slowestKey.py) (Easy)
+### 1.  [Slowest Key](https://github.com/milinpatel13298/leetCodeProblems/blob/main/slowestKey.py) (Easy)
 
 A newly designed keypad was tested, where a tester pressed a sequence of `n` keys, one at a time.
 
