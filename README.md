@@ -1,6 +1,10 @@
 # LeetCode Problems
 ## This repository contains solutions to the following LeetCode Problems
-* [Two Sum](https://leetcode.com/problems/two-sum/)
+* [Slowest Key](https://leetcode.com/problems/slowest-key/) (Easy)\
 * [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (Easy)
 * [Shifting Letters](https://leetcode.com/problems/shifting-letters/) (Medium)
-* [Slowest Key](https://leetcode.com/problems/slowest-key/) (Easy)
+  - [ ] Time Limit Exceeded
+  Current status - 46/53 test cased passed
+* [Two Sum](https://leetcode.com/problems/two-sum/)
+
+
