@@ -1,0 +1,11 @@
+class Solution:
+    def reverseOnlyLetters(self, s: str) -> str:
+        reversedString=s[::-1]
+        answer=""
+        for i in reversedString:
+            if i.isalpha():
+                answer+=i
+        for i in range(len(s)):
+            if not s[i].isalpha():
+                answer=answer[:i]+s[i]+answer[i:]
+        return answer
