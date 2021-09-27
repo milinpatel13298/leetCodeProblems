@@ -19,7 +19,7 @@ class Solution:
                 l2=l2.next
             addedNumber+=carry
             curNode.val=addedNumber%10
-            carry=int(addedNumber/10)
+            carry=addedNumber//10
             if l1 or l2:
                 curNode.next=ListNode()
                 curNode=curNode.next
