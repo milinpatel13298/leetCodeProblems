@@ -10,15 +10,14 @@ class Solution:
         continueAddition=True
         curNode=answer
         while(continueAddition):
+            addedNumber=0
             if l1 is not None:
-                digit1=l1.val
+                addedNumber+=l1.val
                 l1=l1.next
-            else: digit1=0
             if l2 is not None:
-                digit2=l2.val
+                addedNumber+=l2.val
                 l2=l2.next
-            else: digit2=0
-            addedNumber=carry+digit1+digit2
+            addedNumber+=carry
             curNode.val=addedNumber%10
             carry=int(addedNumber/10)
             if l1 or l2:
