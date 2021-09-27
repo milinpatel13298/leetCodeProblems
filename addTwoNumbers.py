@@ -12,17 +12,15 @@ class Solution:
         while(continueAddition):
             if l1 is not None:
                 digit1=l1.val
+                l1=l1.next
             else: digit1=0
             if l2 is not None:
                 digit2=l2.val
+                l2=l2.next
             else: digit2=0
             addedNumber=carry+digit1+digit2
             curNode.val=addedNumber%10
             carry=int(addedNumber/10)
-            if l1:
-                l1=l1.next
-            if l2:
-                l2=l2.next
             if l1 or l2:
                 curNode.next=ListNode()
                 curNode=curNode.next
