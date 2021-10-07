@@ -12,3 +12,4 @@
   Current status - 6/23 test cases passed\
   Last executed input: `[[7],[9],[6]]`
 * [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) (Medium)
+* [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Medium)
